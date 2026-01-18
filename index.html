@@ -24,12 +24,58 @@
     <button class="hidden md:block
              bg-gradient-to-r from-pink-500 to-purple-500
              px-6 py-2 rounded-full font-semibold
-             hover:opacity-90 transition">Subscribe</button>
+             hover:opacity-90 transition">Subscribe → 
+    </button>
+             
 
     <!-- (Mobile only) -->
     <div class="md:hidden text-2xl cursor-pointer select-none">☰</div>
 </nav>
 </header>
+
+    <!-- banner section -->
+    <section class="relative bg-cover bg-center text-white"
+     style="background-image: url('assets/hero-bg.png');">
+    <div class="absolute inset-0 bg-[#0b0f2a]/80"></div>
+
+    <div class="relative max-w-7xl mx-auto px-6 py-28
+           flex flex-col items-center text-center gap-6">
+    <div class="relative">
+        <div class="w-64 h-64 md:w-72 md:h-72 lg:w-80 lg:h-80 
+        rounded-full bg-cover bg-center flex items-center justify-center"
+        style="background-image: url('assets/hero-circle.png');">
+        <img
+          src="assets/microphone.png" alt="Microphone" class="w-20 md:w-24 lg:w-28"/>
+      </div>
+
+      <!-- NEW BADGE -->
+      <span class="absolute top-4 right-2
+               bg-green-400 text-black text-xs font-bold
+               px-6 py-2 rounded-full">NEW</span>
+    </div>
+
+    <h1 class="text-4xl md:text-5xl lg:text-6xl font-bold">TechWave</h1>
+
+    <p class="max-w-xl text-gray-300">
+        Your daily dose of tech insights, productivity hacks, and personal growth.
+    </p>
+
+    <div class="flex gap-4 mt-4">
+      <button class="flex items-center gap-2
+               bg-gradient-to-r from-pink-500 to-purple-500
+               px-6 py-3 rounded-full font-semibold
+               hover:opacity-90 transition">
+        <img src="assets/spotify.png" class="w-5 h-5" alt="">Listen on Spotify</button>
+
+       <button class="flex items-center gap-2
+               border border-gray-300 px-6 py-3 rounded-full
+               hover:bg-white hover:text-black transition">
+        <img src="assets/message.png" class="w-5 h-5" alt="">Subscribe</button>
+    </div>
+  </div>
+</section>
+
+
 
        
   
